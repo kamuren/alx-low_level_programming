@@ -1,1 +1,3 @@
-0 - runs the file through the preprocessor
+0-processor -> runs the file main.c stored in $CFILE through the preprocessor.
+1-compiler -> compiles the c file in $CFILE without linking.
+
