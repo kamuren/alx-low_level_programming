@@ -4,3 +4,4 @@
 3-name -> produces and excecutable file for C file.
 4-puts.c -> this code  prints put a text using the puts function.
 5-printf.c -> this code uses printf function to print out text.
+6-size.c -> this code displays the size of memory the data types stated occupy using sizeof() function.
