@@ -3,3 +3,4 @@
 2-assembler -> generate the assembly language for the C file.
 3-name -> produces and excecutable file for C file.
 4-puts.c -> this code  prints put a text using the puts function.
+5-printf.c -> this code uses printf function to print out text.
