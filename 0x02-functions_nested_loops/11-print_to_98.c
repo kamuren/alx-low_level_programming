@@ -1,51 +1,53 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * print_to_98 - Print value of n to 98
+ * print_to_98 - outputs number range and ends with 98
+ * 
+ * @n: - starting value
  *
- * @n: - value to begin from
+ * Return: no return value
  *
- * Return: nothing to return
  */
 
 void print_to_98(int n)
 {
-	int i;
-
 	if (n < 98)
 	{
-		for (i = n; i <= 98; i++)
+		while (n <= 98)
 		{
-			if (i < 98)
+			printf("%d", n);
+			if (n < 98)
 			{
-				printf("%d", i);
 				putchar(',');
 				putchar(' ');
-				printf("98");
+
 			}
-			_putchar('\n');
+			n++;
+		
 		}
+		putchar('\n');
+
 	}
 
 	else if (n > 98)
-
 	{
-		for (i = n; i >= 98; i--)
+		while (n >= 98)
 		{
-			if (i > 98)
+			printf("%d", n);
+			if (n > 98)
 			{
-				printf("%d", i);
 				putchar(',');
 				putchar(' ');
-				printf("98");
+
 			}
-			_putchar('\n');
+			n--;
 		}
+		putchar('\n');
+
 	}
 
 	else
-		printf("%d", n);
-
-
+	
+		printf("%d\n", n);
+		
 }
