@@ -19,7 +19,22 @@ void print_to_98(int n)
 		{
 			if (i < 98)
 			{
-				putchar(i + 48);
+				putchar(i);
+				putchar(',');
+				putchar(' ');
+			}
+			_putchar('\n');
+		}
+	}
+
+	else if
+
+	{
+		for (i = n; i >= 98; i--)
+		{
+			if (i > 98)
+			{
+				putchar(i);
 				putchar(',');
 				putchar(' ');
 			}
@@ -28,18 +43,7 @@ void print_to_98(int n)
 	}
 
 	else
+		putchar(n);
 
-	{
-		for (i = n; i >= 98; i--)
-		{
-			if (i > 98)
-			{
-				putchar(i + 48);
-				putchar(',');
-				putchar(' ');
-			}
-			_putchar('\n');
-		}
-	}
 
 }
