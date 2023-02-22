@@ -19,7 +19,7 @@ void print_to_98(int n)
 		{
 			if (i < 98)
 			{
-				putchar(i);
+				putchar(i + '0');
 				putchar(',');
 				putchar(' ');
 			}
@@ -34,7 +34,7 @@ void print_to_98(int n)
 		{
 			if (i > 98)
 			{
-				putchar(i);
+				putchar(i + '0');
 				putchar(',');
 				putchar(' ');
 			}
@@ -43,7 +43,7 @@ void print_to_98(int n)
 	}
 
 	else
-		putchar(n);
+		putchar(n + '0');
 
 
 }
