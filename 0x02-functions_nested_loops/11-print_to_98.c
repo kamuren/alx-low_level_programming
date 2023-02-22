@@ -2,7 +2,6 @@
 
 /**
  * print_to_98 - outputs number range and ends with 98
- * 
  * @n: - starting value
  *
  * Return: no return value
@@ -23,7 +22,6 @@ void print_to_98(int n)
 
 			}
 			n++;
-		
 		}
 		putchar('\n');
 
@@ -47,7 +45,5 @@ void print_to_98(int n)
 	}
 
 	else
-	
 		printf("%d\n", n);
-		
 }
