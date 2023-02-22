@@ -5,7 +5,7 @@
  *
  * @x: parameter to obtain last digit
  *
- * Retun: last digit parameter
+ * Return: last digit parameter
  */
 
 int print_last_digit(int x)
