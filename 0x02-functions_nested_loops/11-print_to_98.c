@@ -22,6 +22,7 @@ void print_to_98(int n)
 				printf("%d", i);
 				putchar(',');
 				putchar(' ');
+				printf("98");
 			}
 			_putchar('\n');
 		}
@@ -37,6 +38,7 @@ void print_to_98(int n)
 				printf("%d", i);
 				putchar(',');
 				putchar(' ');
+				printf("98");
 			}
 			_putchar('\n');
 		}
