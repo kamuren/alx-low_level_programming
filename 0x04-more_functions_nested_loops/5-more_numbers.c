@@ -21,6 +21,7 @@ void more_numbers(void)
 		}
 
 		i++;
+		_putchar(10);
 	}
 
 }
