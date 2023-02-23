@@ -4,7 +4,7 @@
  * mul - multiplies the parameters and gives output
  * @a: first parameter
  * @b: second parameter
- * Return: 0
+ * Return: value of result
  */
 
 int mul(int a, int b)
@@ -12,7 +12,5 @@ int mul(int a, int b)
 	int result;
 
 	result = a * b;
-	_putchar(result + 48);
-
-	return (0);
+	return (result);
 }
