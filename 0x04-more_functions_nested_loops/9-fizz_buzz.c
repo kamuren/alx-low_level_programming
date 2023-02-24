@@ -7,7 +7,7 @@
  * Return: no value
  */
 
-int fizz_buzz(void)
+void fizz_buzz(void)
 {
 	int i;
 
