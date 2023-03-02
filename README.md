@@ -1,1 +1,1 @@
-This Repository is all about introduction to C programming
+This Repository contains tasks undertaken in leaning C programming
